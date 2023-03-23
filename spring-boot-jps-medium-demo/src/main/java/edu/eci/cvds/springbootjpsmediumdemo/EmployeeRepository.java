@@ -1,4 +1,4 @@
-package edu.eci.cvds.springbootjpsmediumdemo.model;
+package edu.eci.cvds.springbootjpsmediumdemo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

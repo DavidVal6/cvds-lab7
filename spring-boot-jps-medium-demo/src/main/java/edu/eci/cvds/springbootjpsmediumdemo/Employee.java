@@ -1,6 +1,10 @@
-package edu.eci.cvds.springbootjpsmediumdemo.model;
+package edu.eci.cvds.springbootjpsmediumdemo;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import java.util.Objects;
 
 @Entity
 public class Employee {
@@ -13,6 +17,7 @@ public class Employee {
 	private String role;
 	private Double salary;
 
+    public Employee(){}
     
 
     public Employee(String firstName, String lastName, String role, Double salary) {
